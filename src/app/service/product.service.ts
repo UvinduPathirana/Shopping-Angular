@@ -14,5 +14,8 @@ export class ProductService {
   ]
 
   constructor() { }
+  getProducts(): Product[] {
+    return this.products
+  }
 }
 // test
